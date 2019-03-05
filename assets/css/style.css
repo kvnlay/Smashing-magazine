@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+/* Header styles */
+
+.navbar{
+    background: rgb(242, 242, 242);
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10.9375em;
+}
+
+.logo{
+font: bold 2.6em 'Open Sans', sans-serif;
+color: black;
+width: 15%;
+}
+
+.nav-item{
+    width: 11%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.nav-icon{
+    font-size: 2em;
+    color: #888C8C;
+}
+
+.nav-title{
+    font-size: 2em;
+    color: #888C8C;
+    text-align: center;
+}
+
+.nav-subtitle{
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #BDBFBF;
+    text-align: center;
+}
+
+.nav-btn i{
+    font-size: 1.2em;
+    padding: 0 10px 0 10px;
+    color: #888C8C;
+}
+
+.nav-btn span{
+    font-size: 1.7em;
+    padding-right: 20px;
+    color: #888C8C;
+}
+}
