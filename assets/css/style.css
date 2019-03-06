@@ -1,6 +1,6 @@
 body{
     color: #2d2d2d;
-    max-width: 1500px;
+    background: #f2f2f2;
 }
 
 h1{
@@ -17,7 +17,7 @@ h4{
 }
 
 .light-grey, .featured-article h3{
-    color: #888C8C;
+    color: #828282;
 }
 .flex{
     display: flex;
@@ -26,13 +26,15 @@ h4{
 .column{
     flex-direction: column;
 }
-
+.cl-white{
+    color: #fff;
+}
 
 
 /* Header styles */
 
 .navbar{
-    background: rgb(242, 242, 242);
+    background: #d33a2c;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
@@ -40,9 +42,8 @@ h4{
 }
 
 .logo{
-font: bold 2.6em 'Open Sans', sans-serif;
-color: black;
-width: 15%;
+    font: bold 2.6em 'Open Sans', sans-serif;
+    width: 15%;
 }
 
 .nav-item{
@@ -54,24 +55,21 @@ width: 15%;
 
 .nav-icon{
     font-size: 2em;
-    color: #888C8C;
+    color: #d3d3d3;
 }
 
 .nav-title{
     font-size: 2em;
-    color: #232426;
     text-align: center;
 }
 
 .nav-subtitle{
-    font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
-    color: #BDBFBF;
+    font: lighter oblique 1.1em 'Bilbo', cursive;
     text-align: center;
 }
 
 .nav-btn{
-    border: 1px solid #232426;
+    border: 1px solid #fff;
     border-radius: 12px;
     padding: 15px;
 }
@@ -79,14 +77,12 @@ width: 15%;
 .nav-btn i{
     font-size: 1.2em;
     padding: 0 0 0 10px;
-    color: #888C8C;
 
 }
 
 .nav-btn span{
     font-size: 1.7em;
     padding-right: 20px;
-    color: #888C8C;
 }
 
 .featured-articles{
@@ -95,14 +91,13 @@ width: 15%;
 .featured-caption{
     position: absolute;
     top: 240px;
-    width: 100%;
-    text-align: center;
     line-height: 1.5;
+    text-align: center;
+    width: 100%;
 }
 .featured-caption span{
     width: 400px;
-    background: #07090D;
-    color: #fff;
+    background: #fff;
     padding: 10px;
 }
 .featured-article{
@@ -116,13 +111,14 @@ width: 15%;
 }
 
 .dark{
-    background: #f2f2f2;
+    background: #bc3428;
 }
 .light{
-    background: #fff;
+    background:#c7372a;
 }
 .featured-photo{
     font-size: 5em;
+    color: #d3d3d3;
 }
 .featured-name{
     width: 200px;height: 40px;
@@ -179,7 +175,7 @@ width: 15%;
     margin-right: 21.6px;
     margin-bottom: 25.2px;
     margin-top: 40px;
-    background: #888C8C;
+    background: #d3d3d3;
     border-radius: 15px;
 }
 
@@ -188,7 +184,7 @@ width: 15%;
     width: 839.8px;
     padding: 0 21.6px 0 21.6px;
     margin-bottom: 75px;
-    background: #BDBFBF;
+    background: #d33a2c;
     border-radius: 15px;
 }
 
@@ -214,19 +210,18 @@ width: 15%;
 
 .ad2-icon{
     font-size: 11em;
-    color: #888C8C;
+    color: #d3d3d3;
     margin-top: 11%;
 }
 
 .ad2-title{
     font-size: 4em;
-    color: #07090D;
 }
 
 .ad2-btn{
     width: 224px;
     height: 50px;
-    background: #07090D;
+    background: #d3d3d3;
     border-radius: 3px;
     margin-top: 150px;
 }
@@ -243,13 +238,12 @@ width: 15%;
     height: auto;
     justify-content: center;
     text-align: center;
-    background: #888C8C;
+    background: #d33a2c;
     padding-top: 60px;
     margin-top: 50px;
 }
 
 .conf-date{
-    color: #353535;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -257,7 +251,6 @@ width: 15%;
 }
 
 .conf-title{
-    color: #07090D;
     font-family: 'Concert One', cursive;
     text-decoration: underline;
     font-size: 3.5em;
@@ -267,7 +260,6 @@ width: 15%;
 }
 
 .conf-text{
-    color: #353535;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
@@ -278,7 +270,7 @@ width: 15%;
 .conf-cta{
     width: 440px;
     height: 70px;
-    background: #07090D;
+    background: #d3d3d3;
     border-radius: 12px;
     justify-content: center;
     margin-left: auto;
@@ -321,7 +313,7 @@ width: 15%;
     text-transform: uppercase;
     font-weight: lighter;
     font-size: .85em;
-    color: #888C8C;
+    color: #d3d3d3;
 }
 .person-info{
     width: 100%;
@@ -431,7 +423,7 @@ width: 15%;
     flex-wrap: nowrap;
     margin: 20px 30px 0 5px;
     justify-content: center;
-    background: #F2F2F2;
+    background: #d33a2c;
     text-align: center;
 }
 
@@ -465,7 +457,6 @@ width: 15%;
 .curated-ad-title{
     font-family: 'Concert One', cursive;
     font-size: 3em;
-    color: #07090D;
     margin-top: 30px;
     text-transform: capitalize;
 }
@@ -473,7 +464,7 @@ width: 15%;
 .curated-ad-text{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    color: #888C8C;
+    color: #d3d3d3;
     margin: 30px 80px 30px 80px;
     text-align: center;
 }
@@ -488,7 +479,7 @@ width: 15%;
     width: 420px;
     height: 62px;
     border-radius: 15px;
-    background: #07090D;
+    background: #d3d3d3;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -497,7 +488,6 @@ width: 15%;
 .curated-ad-small{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    color: #BDBFBF;
     margin: 30px 33% 30px 33%;
     text-align: center;
     margin-bottom: 25px;
