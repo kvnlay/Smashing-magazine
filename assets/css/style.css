@@ -8,6 +8,10 @@ h4{
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
 /* Header styles */
 
 .navbar{
@@ -197,3 +201,100 @@ width: 15%;
     max-width: 30em;
     margin-top: 10px;
 }
+
+/* conference styles */
+
+.conference{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #888C8C;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+.conf-date{
+    color: #353535;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.conf-title{
+    color: #07090D;
+    font-family: 'Concert One', cursive;
+    text-decoration: underline;
+    font-size: 3.5em;
+    padding-top: 30px;
+    text-transform: capitalize;
+
+}
+
+.conf-text{
+    color: #353535;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 40px 20vw 40px 20vw;
+    padding-top: 30px;
+}
+
+.conf-cta{
+    width: 440px;
+    height: 70px;
+    background: #07090D;
+    border-radius: 12px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conf-img{
+    color: #BDBFBF;
+    font-size: 50em;
+    margin-top: -70px;
+    width: 100%;
+    height: 750px;
+}
+
+/* person of the week section  */
+
+.person{
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-top: 50px;
+}
+
+.person-profile{
+    width: 60vw;
+    flex-direction: column;
+    height: 316px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.person-img{
+    width: 30vw;
+    font-size: 15em;
+    justify-content: center;
+}
+
+.person-name{
+    padding: 35px 0;
+    height: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: .85em;
+    color: #888C8C;
+}
+.person-info{
+    width: 100%;
+    height: 204px;
+    line-height: 1.5em;
+    color: #BDBFBF;
+}
+
