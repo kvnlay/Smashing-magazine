@@ -1,8 +1,14 @@
 h1{
     font: 600 2.5em/2.5 'Open Sans', sans-serif;
 }
+h2{
+    font: 600 2em/2.5 'Open Sans', sans-serif;
+}
+h3{
+    font: 600 1.4em/1.5 'Open Sans', sans-serif;
+}
 h4{
-    font: 600px 1.4em/1.5 'Open Sans', sans-serif;
+    font: 400 1em/1.5 'Times New Roman', Times, serif;
 }
 .flex{
     display: flex;
@@ -74,10 +80,13 @@ width: 15%;
     top: 240px;
     width: 100%;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 .featured-caption span{
     width: 400px;
+    background: #07090D;
+    color: #fff;
+    padding: 10px;
 }
 .featured-article{
     width: 49.9%;
@@ -85,9 +94,8 @@ width: 15%;
     padding-top: 0;
 }
 .featured-article h1{
-    /*width: 70%;*/
     line-height: 1;
-    margin: 50px 0 0 0;
+    margin: 50px 0 30px 0;
 }
 .dark{
     background: #f2f2f2;
@@ -106,10 +114,17 @@ width: 15%;
     text-transform: capitalize;
 }
 .top-pad{
-    padding: 220px 0 0 0;
+    padding: 240px 0 0 60px;
+    box-sizing: border-box;
+    height: 680px;
 }
 .down-pad{
-    /*padding: 50px 10px 10px 50px;*/
+    padding: 60px 0 0 60px;
+    box-sizing: border-box;
+}
+.featured-arrow i{
+    font-size: 2.8em;
+    margin: 90px 0 0 0;
 }
 
 /* articles styles */
@@ -119,15 +134,18 @@ width: 15%;
 }
 .article{
     width: 29%;
-    margin: 0 2.1%;
+    margin: 3% 2.1%;
 }
 .article-title{
     font: 600 1.6em/1 'Open Sans', sans-serif;
     margin: 12px 0;
 }
+.article-author{
+    font: 400 1em/1 'Open Sans', sans-serif;
+}
 .article-text{
-    font: 400 1.1em/1 'Open Sans', sans-serif;
-    margin: 12px 0;
+    font: 400 1.2em/1.3 'Open Sans', sans-serif;
+    margin: 46px 0;
 }
 
 /* ads styles */
@@ -318,15 +336,16 @@ width: 15%;
     width: 80%;
 }
 .com-name{
-    font: 1.7em/1.5 'Open Sans', sans-serif;
+    font: 1.5em/1.5 'Open Sans', sans-serif;
     text-transform: capitalize;
 }
-.com-title{
-    font: 600 2em 'Open Sans', sans-serif;
+.com-tittle{
+    font: 600 1.8em 'Open Sans', sans-serif;
     text-transform: capitalize;
+    margin: 20px 0 20px 0;
 }
 .com-text{
-    font: 1.5em times new roman,Times,serif;
+    font: 1.3em times new roman,Times,serif;
 }
 
 /* featured section */
@@ -347,7 +366,7 @@ width: 15%;
     padding-bottom: 10px;
 }
 .featured-title{
-    font: 600 3em 'Open Sans', sans-serif;
+    font: 400 2.8em 'Open Sans', sans-serif;
     text-decoration: underline;
     margin: 0 0 30px 0;
 }
