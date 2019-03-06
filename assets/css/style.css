@@ -1,8 +1,8 @@
 h1{
-    font: 600 38px/2.5 'Open Sans', sans-serif;
+    font: 600 2.5em/2.5 'Open Sans', sans-serif;
 }
 h4{
-    font: 600px 24px/1.5 'Open Sans', sans-serif;
+    font: 600px 1.4em/1.5 'Open Sans', sans-serif;
 }
 .flex{
     display: flex;
@@ -66,17 +66,24 @@ width: 15%;
     flex-wrap: wrap;
 }
 .featured-caption{
-    border: 1px solid #000;
     position: absolute;
-    left: 50%;
+    top: 240px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
 }
 .featured-caption span{
-
+    width: 400px;
 }
 .featured-article{
     width: 49.9%;
     height: 565px;
     padding-top: 0;
+}
+.featured-article h1{
+    /*width: 70%;*/
+    line-height: 1;
+    margin: 50px 0 0 0;
 }
 .dark{
     background: #f2f2f2;
@@ -91,11 +98,32 @@ width: 15%;
 .featured-name{
     border: 1px solid #000;
     width: 200px;height: 40px;
-    font: 600 1.8em 'Open Sans', sans-serif;
+    font: 600 1.4em 'Open Sans', sans-serif;
     text-transform: capitalize;
 }
 .top-pad{
-    padding-top: 220px;
+    padding: 220px 0 0 0;
+}
+.down-pad{
+    /*padding: 50px 10px 10px 50px;*/
+}
+
+/* articles styles */
+
+.articles{
+    flex-wrap: wrap;
+}
+.article{
+    width: 29%;
+    margin: 0 2.1%;
+}
+.article-title{
+    font: 600 1.6em/1 'Open Sans', sans-serif;
+    margin: 12px 0;
+}
+.article-text{
+    font: 400 1.1em/1 'Open Sans', sans-serif;
+    margin: 12px 0;
 }
 
 /* ads styles */
