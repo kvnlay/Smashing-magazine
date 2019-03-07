@@ -1,0 +1,494 @@
+body{
+    color: #2d2d2d;
+    background: #f2f2f2;
+}
+
+h1{
+    font: 600 2.5em/2.5 'Open Sans', sans-serif;
+}
+h2{
+    font: 600 2em/2.5 'Open Sans', sans-serif;
+}
+h3{
+    font: 600 1.4em/1.5 'Open Sans', sans-serif;
+}
+h4{
+    font: 400 1em/1.5 'Times New Roman', Times, serif;
+}
+
+.light-grey, .featured-article h3{
+    color: #828282;
+}
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+.cl-white{
+    color: #fff;
+}
+
+
+/* Header styles */
+
+.navbar{
+    background: #d33a2c;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10.9375em;
+}
+
+.logo{
+    font: bold 2.6em 'Open Sans', sans-serif;
+    width: 15%;
+}
+
+.nav-item{
+    width: 11%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.nav-icon{
+    font-size: 2em;
+    color: #d3d3d3;
+}
+
+.nav-title{
+    font-size: 2em;
+    text-align: center;
+}
+
+.nav-subtitle{
+    font: lighter oblique 1.1em 'Bilbo', cursive;
+    text-align: center;
+}
+
+.nav-btn{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.nav-btn i{
+    font-size: 1.2em;
+    padding: 0 0 0 10px;
+
+}
+
+.nav-btn span{
+    font-size: 1.7em;
+    padding-right: 20px;
+}
+
+.featured-articles{
+    flex-wrap: wrap;
+}
+.featured-caption{
+    position: absolute;
+    top: 240px;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+.featured-caption span{
+    width: 400px;
+    background: #fff;
+    padding: 10px;
+}
+.featured-article{
+    width: 49.9%;
+    height: 565px;
+    padding-top: 0;
+}
+.featured-article h1{
+    line-height: 1;
+    margin: 50px 0 30px 0;
+}
+
+.dark{
+    background: #bc3428;
+}
+.light{
+    background:#c7372a;
+}
+.featured-photo{
+    font-size: 5em;
+    color: #d3d3d3;
+}
+.featured-name{
+    width: 200px;height: 40px;
+    font: 600 1.4em 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.top-pad{
+    padding: 240px 0 0 60px;
+    box-sizing: border-box;
+    height: 680px;
+}
+.down-pad{
+    padding: 60px 0 0 60px;
+    box-sizing: border-box;
+}
+.featured-arrow i{
+    font-size: 2.8em;
+    margin: 90px 0 0 0;
+}
+
+/* articles styles */
+
+.articles{
+    flex-wrap: wrap;
+}
+.article{
+    width: 29%;
+    margin: 3% 2.1%;
+}
+.article-title{
+    font: 600 1.6em/1 'Open Sans', sans-serif;
+    margin: 12px 0;
+}
+.article-author{
+    font: 400 1em/1 'Open Sans', sans-serif;
+}
+.article-text{
+    font: 400 1.2em/1.3 'Open Sans', sans-serif;
+    margin: 46px 0;
+}
+
+/* ads styles */
+
+.ads{
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+    padding-top: 40px;
+}
+
+.ad1{
+    height: 288px;
+    width: 398.8px;
+    margin-right: 21.6px;
+    margin-bottom: 25.2px;
+    margin-top: 40px;
+    background: #d3d3d3;
+    border-radius: 15px;
+}
+
+.ad2{
+    height: 100%;
+    width: 839.8px;
+    padding: 0 21.6px 0 21.6px;
+    margin-bottom: 75px;
+    background: #d33a2c;
+    border-radius: 15px;
+}
+
+.ad1, .ad2{
+    align-items: center; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ad1-title{
+    font-size: 2.8em !important;
+    color: #232426;
+    padding-top: 50px;
+}
+
+.ad1-btn{
+    width: 131px;
+    height: 47px;
+    background: #F2F2F2;
+    border-radius: 3px;
+    margin-top: 100px;
+}
+
+.ad2-icon{
+    font-size: 11em;
+    color: #d3d3d3;
+    margin-top: 11%;
+}
+
+.ad2-title{
+    font-size: 4em;
+}
+
+.ad2-btn{
+    width: 224px;
+    height: 50px;
+    background: #d3d3d3;
+    border-radius: 3px;
+    margin-top: 150px;
+}
+
+.ad2-text{
+    max-width: 30em;
+    margin-top: 10px;
+}
+
+/* conference styles */
+
+.conference{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background: #d33a2c;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+.conf-date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.conf-title{
+    font-family: 'Concert One', cursive;
+    text-decoration: underline;
+    font-size: 3.5em;
+    padding-top: 30px;
+    text-transform: capitalize;
+
+}
+
+.conf-text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 40px 20vw 40px 20vw;
+    padding-top: 30px;
+}
+
+.conf-cta{
+    width: 440px;
+    height: 70px;
+    background: #d3d3d3;
+    border-radius: 12px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conf-img{
+    color: #BDBFBF;
+    font-size: 50em;
+    margin-top: -70px;
+    width: 100%;
+    height: 750px;
+}
+
+/* person of the week section  */
+
+.person{
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-top: 50px;
+}
+
+.person-profile{
+    width: 60vw;
+    height: 316px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.person-img{
+    width: 30vw;
+    font-size: 15em;
+    justify-content: center;
+}
+
+.person-name{
+    padding: 35px 0;
+    height: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: .85em;
+    color: #d3d3d3;
+}
+.person-info{
+    width: 100%;
+    height: 204px;
+    line-height: 1.5em;
+    color: #BDBFBF;
+}
+
+/* com section */
+
+.com-articles{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.com-article{
+    width: 45%;
+    height: 300px;
+    flex-flow: row wrap;
+    margin-left: 20px;
+}
+.com-photo{
+    font-size: 6em;
+    width: 20%;
+}
+.com-content{
+    width: 80%;
+}
+.com-name{
+    font: 1.3em/1.5 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.com-tittle{
+    font: 600 1.8em 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0 20px 0;
+}
+.com-text{
+    font: 1.1em times new roman,Times,serif;
+}
+
+/* featured section */
+
+.featured{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.feature-container{
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.featured-author{
+    text-transform: uppercase;
+    font: 1.2em times new roman,Times,serif;
+    padding-bottom: 10px;
+}
+.featured-title{
+    font: 400 2.8em 'Open Sans', sans-serif;
+    text-decoration: underline;
+    margin: 0 0 30px 0;
+}
+.featured-content{
+    font: 1.2em/1.5 times new roman,Times,serif;
+    width: 70%
+}
+.featured-btn{
+    width: 279px;
+    height: 50px;
+    border-radius: 15px;
+    background: #07090d;
+    padding-bottom: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+.featured-img{
+    float: right;
+    width: 25%;
+    font-size: 18em;
+    margin-top: -380px;
+    color: #bdbfbf;
+}
+
+/* curated post section */
+
+.curated-posts{
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #07090D;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.curated-post{
+    width: 29%;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 30px 0 5px;
+    align-content: flex-start;
+}
+
+.curated-ad{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    margin: 20px 30px 0 5px;
+    justify-content: center;
+    background: #d33a2c;
+    text-align: center;
+}
+
+.curated-small{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 1.2em;
+    color: #303030;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.curated-title{
+    font-family: 'Open Sans', cursive;
+    font-size: 1.9em;
+    color: #F2F2F2;
+    text-transform: capitalize;
+}
+
+.curated-links{
+    padding-top: 15px;
+}
+
+.curated-links li{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 1.5em;
+    color: #BDBFBF;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.curated-ad-title{
+    font-family: 'Concert One', cursive;
+    font-size: 3em;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.curated-ad-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: #d3d3d3;
+    margin: 30px 80px 30px 80px;
+    text-align: center;
+}
+
+.curated-ad-icon{
+    margin-top: -100px;
+    font-size: 40em;
+    color: #BDBFBF;
+}
+
+.curated-ad-btn{
+    width: 420px;
+    height: 62px;
+    border-radius: 15px;
+    background: #d3d3d3;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curated-ad-small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin: 30px 33% 30px 33%;
+    text-align: center;
+    margin-bottom: 25px;
+}
